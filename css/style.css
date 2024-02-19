@@ -1,0 +1,198 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Pacifico&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Protest+Riot&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+:root {
+  --font-1: Verdana, Geneva, Tahoma, sans-serif;
+  --font-2: "Charm", cursive; /*"Protest Riot", sans-serif;*/
+  --font-3: "Inconsolata", monospace;
+}
+
+body {
+  background-color: #8a71c9;
+  color: #ffffff;
+  text-align: center;
+  font-family: open sans, sans-serif;
+  margin: 0px 0px 30px 0px;
+}
+
+header {
+  margin: 50px;
+}
+
+p {
+  font: normal normal 1.2em var(--font-3);
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 20px;
+  text-shadow: 2px 2px 0px rgba(37, 36, 36, 0.621);
+}
+
+h2,
+h3,
+h4,
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font: normal 300 4em var(--font-2);
+  /* font-variant: small-caps; */
+  text-shadow: 2px 2px 0px rgba(37, 36, 36, 0.621);
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #2a0074;
+  text-shadow: 2px 2px 0px rgba(215, 212, 212, 0.621);
+}
+
+h3 {
+  font: normal normal 1.5em var(--font-3);
+  margin-top: 50px;
+  background-color: #552eb7;
+  text-shadow: 2px 1px 0px rgba(202, 201, 201, 0.621);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.331);
+}
+
+h4 {
+  font-family: var(--font-3);
+  text-shadow: 2px 2px 0px rgba(37, 36, 36, 0.621);
+}
+
+.titulo-infancia {
+  /* color:  #04ff97; */
+  color: #ffe36d;
+}
+
+.titulo-juventude {
+  /* color: #FF9E9E; */
+  color: #ffe36d;
+}
+
+.titulo-adulto {
+  color: #ffe36d;
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section section {
+  width: 100%;
+}
+
+section.formulario {
+  background-color: rgba(255, 255, 255, 0.094);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.331);
+}
+
+section form label {
+  padding-left: 15px;
+  border-radius: 10px;
+  font-family: var(--font-3);
+  font-weight: bolder;
+}
+
+section form input {
+  padding: 3px;
+  border-radius: 2px;
+  font-family: var(--font-3);
+  font-weight: bolder;
+  background-color: rgb(251, 251, 248);
+}
+
+img {
+  width: 100%;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.331);
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px rgba(37, 36, 36, 0.621);
+}
+
+.principal {
+  background-color: #ff6cb5;
+  height: 40px;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+.principal ul {
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.331);
+}
+
+.principal a {
+  color: white;
+  text-decoration: none;
+  font: normal bolder 1em var(--font-3);
+}
+
+.principal a:hover {
+  text-decoration: overline;
+  color: #ffe36d;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+nav.mulheres-tecnologia {
+  margin-bottom: 40px;
+  font-family: var(--font-3);
+  font-size: 1.5em;
+  box-shadow: 0px 0px 0px purple;
+}
+
+nav.mulheres-tecnologia a:hover {
+  color: #ffe36d;
+}
+
+button {
+  background-color: #edf1ed;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-family: var(--font-3);
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #ff6cb5;
+}
+
+footer > p {
+  background-color: #ff6cb5;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a:hover {
+  color: #ffe36d;
+}
